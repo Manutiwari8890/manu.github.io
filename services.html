@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="icon" href="assets/images/black_logo.png">
+    <title>MANU</title>
+</head>
+<body>
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-middle" data-cursor-middle></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand me-auto" href="#"><img src="assets/images/black_logo.png" width="80px" height="80px" alt=""></a>
+          
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <div class="offcanvas-title" id="offcanvasNavbarLabel"><img src="assets/images/black_logo.png" width="80px" height="80px" alt=""></div>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2 active" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                   <a class="nav-link mx-lg-2" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                   <a class="nav-link mx-lg-2" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <a href="" class="btn btn-default" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Log-in</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+      <!-- Modal -->
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Log in</h5>
+            </div>
+            <div class="modal-body">
+              <form action="">
+                <div class="form-input">
+                  <input type="text" placeholder="Username"/>
+                </div>
+                <div class="form-input">
+                  <input type="password" placeholder="Password"/>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-cancel" data-bs-dismiss="modal">Cancel</button>
+              <button type="button" class="btn btn-white">Log-in</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="services">
+        <div class="container">
+          <div class="topic-title">
+            <h2>Services</h2>
+          </div>
+          <div class="service-container right d-flex">
+            <div class="col-md-6 col-sm-3">
+              <div class="img-container">
+                <img src="assets/images/html-css-collage-concept-with-person.jpg" alt="">
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-3">
+              <div class="details">
+                <h1>Web Development</h1>
+                <p>" We provide a fully customised service, designed to meet your specific IT requirements, business set up and budget. "</p>
+              </div>
+            </div>
+          </div>
+          <div class="service-container left d-flex">
+            <div class="col-md-6 col-sm-3">
+              <div class="details">
+                <h1>Mobile App Development</h1>
+                <p>" Our expertises craft a strong strategy to develop applications across platforms with the optimal combination of technologies. "</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-3">
+              <div class="img-container">
+                <img src="assets/images/smiling-freelancing-developer-home-office-doing-coding-computer.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="service-container right d-flex">
+            <div class="col-md-6 col-sm-3">
+              <div class="img-container">
+                <img src="assets/images/developers-brainstorming-ideas-looking-code-computer-screens-asking-feedback-from-senior-developer-while-intern-joins-discussion-junior-programmers-collaborating-group-project.jpg" alt="">
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-3">
+              <div class="details">
+                <h1>Ui Ux Design</h1>
+                <p>" Develop a great online and mobile user experience for your customers. Your product might be sophisticated, but the user interface must be simple. "</p>
+              </div>
+            </div>
+          </div>
+          <div class="service-container left d-flex">
+            <div class="col-md-6 col-sm-3">
+              <div class="details">
+                <h1>E-Commerce Integration</h1>
+                <p>" We offer eCommerce solutions, where your businesses can operate 24 hours a day, 7 days a week, and reach customers in any time zone. "</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-3">
+              <div class="img-container">
+                <img src="assets/images/software-engineer-holding-digital-tablet-analyzing-code-wall-screen-tv-explaining-errors-colleague-programer-it-startup-office-team-coders-collaborating-ai-innovation-group-project.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="service-container right d-flex">
+            <div class="col-md-6 col-sm-3">
+              <div class="img-container">
+                <img src="assets/images/portrait-african-american-software-developer-holding-laptop-looking-up-smiling-camera-programer-typing-portable-computer-coworker-coding-cyber-security-agency.jpg" alt="">
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-3">
+              <div class="details">
+                <h1>IT Business Solutions</h1>
+                <p>" We provide a fully customised service, designed to meet your specific IT requirements, business set up and budget. "</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="top" id="top-to-bottom">
+          <span><i class="fa fa-chevron-up"></i></span>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-box">
+                        <img src="assets/images/white_logo.png" alt="" width="80px" height="80px">
+                        <p class="pt-2">Amet nisl purus in mollis nunc sed id. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="single-box">
+                    <h2>Quick Links</h2>
+                    <ul>
+                      <li><a href="#" class="nav-footer-link">About us</a></li>
+                      <li><a href="#" class="nav-footer-link">Blog</a></li>
+                      <li><a href="#" class="nav-footer-link">Portfolio</a></li>
+                      <li><a href="#" class="nav-footer-link">Contact Us</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="single-box">
+                    <h2>Helpful Links</h2>
+                    <ul>
+                      <li><a href="#" class="nav-footer-link active">Terms & Conditions</a></li>
+                      <li><a href="#" class="nav-footer-link">Privacy Policy</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="single-box">
+                    <h2>News Links</h2>
+                    <div class="inner-news-content">
+                      <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Enter Your Email ..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                          <span class="input-group-text" id="basic-addon2"><i class="fa fa-paper-plane"></i></span>
+                        </div>
+                      </div>
+                      <div class="social">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-youtube"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </footer>
+
+    <script  type="text/javascript" src="assets/js/bootstrap.js"></script>
+    <script  type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script  type="text/javascript" src="assets/js/custom.js"></script>
+</body>
+</html>

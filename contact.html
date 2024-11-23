@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="icon" href="assets/images/black_logo.png">
+    <title>MANU</title>
+</head>
+<body>
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-middle" data-cursor-middle></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand me-auto" href="#"><img src="assets/images/black_logo.png" width="80px" height="80px" alt=""></a>
+          
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <div class="offcanvas-title" id="offcanvasNavbarLabel"><img src="assets/images/black_logo.png" width="80px" height="80px" alt=""></div>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                   <a class="nav-link mx-lg-2" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                   <a class="nav-link mx-lg-2 active" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <a href="" class="btn btn-default" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Log-in</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+      <!-- Modal -->
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Log in</h5>
+            </div>
+            <div class="modal-body">
+              <form action="">
+                <div class="form-input">
+                  <input type="text" placeholder="Username"/>
+                </div>
+                <div class="form-input">
+                  <input type="password" placeholder="Password"/>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-cancel" data-bs-dismiss="modal">Cancel</button>
+              <button type="button" class="btn btn-white">Log-in</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="details">
+                        <div class='title'>
+                            <h2>Get in touch</h2>
+                        </div>
+                        <div class="desc mt-4">
+                            <p>Need immediate assistance? Our customer support team is available to help you with any issues or questions you may have.</p>
+                        </div>
+                        <div class="address mt-4">
+                            <ul>
+                                <li><a href="#map"><i class="fa fa-map-marker"></i> 9757 Aspen Lane South Richmond Hill, NY 11419</a></li>
+                                <li><a href="tel:+912402567843"><i class="fa fa-phone"></i> +911402567843</a></li>
+                                <li><a href="mailto:info@gmail.com"><i class="fa fa-envelope"></i> info@gmail.com</a></li>
+                            </ul>
+                        </div>
+                        <div class="social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-youtube"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <form action="">
+                        <div class="form-input">
+                            <input type="text" placeholder="First Name"/>
+                        </div>
+                        <div class="form-input">
+                            <input type="text" placeholder="Last Name"/>
+                        </div>
+                        <div class="form-input">
+                            <input type="tel" placeholder="Contact No."/>
+                        </div>
+                        <div class="form-input">
+                            <input type="email" placeholder="Email"/>
+                        </div>
+                        <div class="form-input">
+                            <textarea placeholder="Message" rows="5"></textarea>
+                        </div>
+                        <div class="btn-area mt-4">
+                            <button class="btn btn-default">Get in touch</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+            <div class="row map" id="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3554.7727529091376!2d75.78806087409818!3d27.00573745608914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db20946aef45b%3A0x55351e15453770ba!2s2Q4R%2B864%2C%20VKI%2C%20Rd%20Number%2017%2C%20Vishwakarma%20Industrial%20Area%2C%20Jaipur%2C%20Rajasthan%20302032!5e0!3m2!1sen!2sin!4v1732081673917!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="top" id="top-to-bottom">
+          <span><i class="fa fa-chevron-up"></i></span>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-box">
+                        <img src="assets/images/white_logo.png" alt="" width="80px" height="80px">
+                        <p class="pt-2">Amet nisl purus in mollis nunc sed id. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="single-box">
+                    <h2>Quick Links</h2>
+                    <ul>
+                      <li><a href="#" class="nav-footer-link">About us</a></li>
+                      <li><a href="#" class="nav-footer-link">Blog</a></li>
+                      <li><a href="#" class="nav-footer-link">Portfolio</a></li>
+                      <li><a href="#" class="nav-footer-link">Contact Us</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="single-box">
+                    <h2>Helpful Links</h2>
+                    <ul>
+                      <li><a href="#" class="nav-footer-link active">Terms & Conditions</a></li>
+                      <li><a href="#" class="nav-footer-link">Privacy Policy</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="single-box">
+                    <h2>News Links</h2>
+                    <div class="inner-news-content">
+                      <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Enter Your Email ..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                          <span class="input-group-text" id="basic-addon2"><i class="fa fa-paper-plane"></i></span>
+                        </div>
+                      </div>
+                      <div class="social">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-youtube"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </footer>
+
+    <script  type="text/javascript" src="assets/js/bootstrap.js"></script>
+    <script  type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script  type="text/javascript" src="assets/js/custom.js"></script>
+</body>
+</html>
