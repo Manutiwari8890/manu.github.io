@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="icon" href="assets/images/black_logo.png">
+    <title>MANU</title>
+</head>
+<body>
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-middle" data-cursor-middle></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand me-auto" href="#"><img src="assets/images/black_logo.png" width="80px" height="80px" alt=""></a>
+          
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <div class="offcanvas-title" id="offcanvasNavbarLabel"><img src="assets/images/black_logo.png" width="80px" height="80px" alt=""></div>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                   <a class="nav-link mx-lg-2 active" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                   <a class="nav-link mx-lg-2" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <a href="" class="btn btn-default" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Log-in</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+      <!-- Modal -->
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Log in</h5>
+            </div>
+            <div class="modal-body">
+              <form action="">
+                <div class="form-input">
+                  <input type="text" placeholder="Username"/>
+                </div>
+                <div class="form-input">
+                  <input type="password" placeholder="Password"/>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-cancel" data-bs-dismiss="modal">Cancel</button>
+              <button type="button" class="btn btn-white">Log-in</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <section class="blog">
+        <div class="container">
+            <article class="article-big">
+                <div class="row">
+                    <div class="col-md-6">
+                            <div class="img-container">
+                                <img src="assets/images/air-ballons.webp" alt="">
+                            </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="desc-box d-grid">
+                            <div class="article-top-content">
+                                <div class="article-detail d-flex">
+                                    <span class="article-cat">Travel</span>
+                                    <span class="article-view"><i class="fa fa-fire"></i> 1260 views</span>
+                                    <span class="article-time"><i class="fa fa-clock-o"></i> 4 min read</span>
+                                </div>
+                                <div class="article-title mt-4">
+                                    <a href="single-post.html"><h1>A Complimentary Day at Mandarin Oriental</h1></a>
+                                </div>
+                                <div class="article-detail d-flex mt-4">
+                                    <p>By <span class="article-autor">Autor</span></p>
+                                    <span class="article-view"><i class="fa fa-circle"></i> November 12, 2024</span>
+                                </div>
+                            </div>
+                            <div class="article-bottom-content">
+                                <div class="article-excerpt">
+                                    <p>We scoped out a handful of super cool destinations worth exploring in the Nordic island nation. With nearly every step, my microspikes slipped off the soles of my chukka boots.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <div class="row">
+                <div class="col-lg-4 col-md-2">
+                    <article class="article">
+                        <div class="img-container">
+                            <img src="assets/images/queen.jpg" alt="">
+                        </div>
+                        <div class="desc-box">
+                            <div class="article-detail d-flex">
+                                <span class="article-cat">Travel</span>
+                                <span class="article-view"><i class="fa fa-fire"></i> 1260 views</span>
+                                <span class="article-time"><i class="fa fa-clock-o"></i> 4 min read</span>
+                            </div>
+                            <div class="article-title mt-4">
+                              <a href="single-post.html"><h1>A Complimentary Day at Mandarin Oriental</h1></a>
+                            </div>
+                            <div class="article-detail d-flex mt-4">
+                              <p>By <span class="article-autor">Autor</span></p>
+                              <span class="article-view"><i class="fa fa-circle"></i> November 12, 2024</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-2">
+                  <article class="article">
+                      <div class="img-container">
+                          <img src="assets/images/rivhero.jpg" alt="">
+                      </div>
+                      <div class="desc-box">
+                          <div class="article-detail d-flex">
+                              <span class="article-cat">Travel</span>
+                              <span class="article-view"><i class="fa fa-fire"></i> 1260 views</span>
+                              <span class="article-time"><i class="fa fa-clock-o"></i> 4 min read</span>
+                          </div>
+                          <div class="article-title mt-4">
+                            <a href="single-post.html"><h1>The Ultimate Ney York Event Guide 2022</h1></a>
+                          </div>
+                          <div class="article-detail d-flex mt-4">
+                            <p>By <span class="article-autor">Autor</span></p>
+                            <span class="article-view"><i class="fa fa-circle"></i> November 12, 2024</span>
+                          </div>
+                      </div>
+                  </article>
+                </div>
+                <div class="col-lg-4 col-md-2">
+                  <article class="article">
+                      <div class="img-container">
+                          <img src="assets/images/plant-set.webp" alt="">
+                      </div>
+                      <div class="desc-box">
+                          <div class="article-detail d-flex">
+                              <span class="article-cat">Travel</span>
+                              <span class="article-view"><i class="fa fa-fire"></i> 1260 views</span>
+                              <span class="article-time"><i class="fa fa-clock-o"></i> 4 min read</span>
+                          </div>
+                          <div class="article-title mt-4">
+                            <a href="single-post.html"><h1>Gary Inman Wants to Teach You How to Build a House</h1></a>
+                          </div>
+                          <div class="article-detail d-flex mt-4">
+                            <p>By <span class="article-autor">Autor</span></p>
+                            <span class="article-view"><i class="fa fa-circle"></i> November 12, 2024</span>
+                          </div>
+                      </div>
+                  </article>
+                </div>
+                <div class="col-lg-4 col-md-2">
+                  <article class="article">
+                      <div class="img-container">
+                          <img src="assets/images/3b1ba4dbe1e174f56aa5d8b422855d60.png" alt="">
+                      </div>
+                      <div class="desc-box">
+                          <div class="article-detail d-flex">
+                              <span class="article-cat">Travel</span>
+                              <span class="article-view"><i class="fa fa-fire"></i> 1260 views</span>
+                              <span class="article-time"><i class="fa fa-clock-o"></i> 4 min read</span>
+                          </div>
+                          <div class="article-title mt-4">
+                            <a href="single-post.html"><h1>The Game That Finally Lets You Live Your Fantasy of Being a Bickering Married Couple</h1></a>
+                          </div>
+                          <div class="article-detail d-flex mt-4">
+                            <p>By <span class="article-autor">Autor</span></p>
+                            <span class="article-view"><i class="fa fa-circle"></i> November 12, 2024</span>
+                          </div>
+                      </div>
+                  </article>
+                </div>
+                <div class="col-lg-4 col-md-2">
+                  <article class="article">
+                      <div class="img-container">
+                          <img src="assets/images/cdf8aba473771b9741f5095d1d9db125.jpg" alt="">
+                      </div>
+                      <div class="desc-box">
+                          <div class="article-detail d-flex">
+                              <span class="article-cat">Travel</span>
+                              <span class="article-view"><i class="fa fa-fire"></i> 1260 views</span>
+                              <span class="article-time"><i class="fa fa-clock-o"></i> 4 min read</span>
+                          </div>
+                          <div class="article-title mt-4">
+                            <a href="single-post.html"><h1>A Complimentary Day at Mandarin Oriental</h1></a>
+                          </div>
+                          <div class="article-detail d-flex mt-4">
+                            <p>By <span class="article-autor">Autor</span></p>
+                            <span class="article-view"><i class="fa fa-circle"></i> November 12, 2024</span>
+                          </div>
+                      </div>
+                  </article>
+              </div>
+              <div class="col-lg-4 col-md-2">
+                <article class="article">
+                    <div class="img-container">
+                        <img src="assets/images/air-ballons.webp" alt="">
+                    </div>
+                    <div class="desc-box">
+                        <div class="article-detail d-flex">
+                            <span class="article-cat">Travel</span>
+                            <span class="article-view"><i class="fa fa-fire"></i> 1260 views</span>
+                            <span class="article-time"><i class="fa fa-clock-o"></i> 4 min read</span>
+                        </div>
+                        <div class="article-title mt-4">
+                          <a href="single-post.html"><h1>The Ultimate Ney York Event Guide 2022</h1></a>
+                        </div>
+                        <div class="article-detail d-flex mt-4">
+                          <p>By <span class="article-autor">Autor</span></p>
+                          <span class="article-view"><i class="fa fa-circle"></i> November 12, 2024</span>
+                        </div>
+                    </div>
+                </article>
+              </div>
+            </div>
+        </div>
+      </section>
+
+
+
+
+      <footer>
+        <div class="top" id="top-to-bottom">
+          <span><i class="fa fa-chevron-up"></i></span>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-box">
+                        <img src="assets/images/white_logo.png" alt="" width="80px" height="80px">
+                        <p class="pt-2">Amet nisl purus in mollis nunc sed id. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="single-box">
+                    <h2>Quick Links</h2>
+                    <ul>
+                      <li><a href="#" class="nav-footer-link">About us</a></li>
+                      <li><a href="#" class="nav-footer-link">Blog</a></li>
+                      <li><a href="#" class="nav-footer-link">Portfolio</a></li>
+                      <li><a href="#" class="nav-footer-link">Contact Us</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="single-box">
+                    <h2>Helpful Links</h2>
+                    <ul>
+                      <li><a href="#" class="nav-footer-link active">Terms & Conditions</a></li>
+                      <li><a href="#" class="nav-footer-link">Privacy Policy</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="single-box">
+                    <h2>News Links</h2>
+                    <div class="inner-news-content">
+                      <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Enter Your Email ..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                          <span class="input-group-text" id="basic-addon2"><i class="fa fa-paper-plane"></i></span>
+                        </div>
+                      </div>
+                      <div class="social">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-youtube"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </footer>
+
+    <script  type="text/javascript" src="assets/js/bootstrap.js"></script>
+    <script  type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script  type="text/javascript" src="assets/js/custom.js"></script>
+</body>
+</html>      
